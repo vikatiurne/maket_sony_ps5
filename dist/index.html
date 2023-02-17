@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <link rel="stylesheet" href="./css/style.min.css?_v=20230217143103" />
+    <link rel="stylesheet" href="./css/style.min.css?_v=20230217220403" />
 </head>
   <body>
     <header class="header">
@@ -63,7 +63,8 @@
             <div class="block_btns">
               <button
                 class="block_btn-item block_btn-item--active"
-                data-button="control1">
+                data-button="control1"
+              >
                 01 Графика
               </button>
               <button class="block_btn-item" data-button="control2">
@@ -85,8 +86,13 @@
             <div class="block__content">
               <div
                 class="block__content-item block__content-item--active"
-                id="control1">
-                <picture><source srcset="img/grafics.webp" type="image/webp"><img class="block__content-img" src="img/grafics.jpg" alt="" /></picture>
+                id="control1"
+              >
+                <img
+                  class="block__content-img"
+                  src="img/feature/grafics.jpg"
+                  alt=""
+                />
                 <div class="block__content-box">
                   <h3>Графика</h3>
                   <p>
@@ -104,11 +110,13 @@
               <div
                 class="block__content-item"
                 style="display: none"
-                id="control2">
+                id="control2"
+              >
                 <img
                   class="block__content-img"
-                  src="img/controls.png"
-                  alt="" />
+                  src="img/feature/controls.png"
+                  alt=""
+                />
                 <div class="block__content-box">
                   <h3>Элементы управления</h3>
                   <p>
@@ -128,11 +136,13 @@
               <div
                 class="block__content-item"
                 style="display: none"
-                id="control3">
+                id="control3"
+              >
                 <img
                   class="block__content-img"
-                  src="img/prosessor.jpg"
-                  alt="" />
+                  src="img/feature/prosessor.jpg"
+                  alt=""
+                />
                 <div class="block__content-box">
                   <h3>Процессор</h3>
                   <p>
@@ -152,8 +162,13 @@
               <div
                 class="block__content-item"
                 style="display: none"
-                id="control4">
-                <picture><source srcset="img/accaunt.webp" type="image/webp"><img class="block__content-img" src="img/accaunt.jpg" alt="" /></picture>
+                id="control4"
+              >
+                <img
+                  class="block__content-img"
+                  src="img/feature/accaunt.jpg"
+                  alt=""
+                />
                 <div class="block__content-box">
                   <h3>Аккаунт</h3>
                   <p>
@@ -173,8 +188,13 @@
               <div
                 class="block__content-item"
                 style="display: none"
-                id="control5">
-                <picture><source srcset="img/store.webp" type="image/webp"><img class="block__content-img" src="img/store.jpg" alt="" /></picture>
+                id="control5"
+              >
+                <img
+                  class="block__content-img"
+                  src="img/feature/store.jpg"
+                  alt=""
+                />
                 <div class="block__content-box">
                   <h3>Техподдержка</h3>
                   <p>В PlayStation Network</p>
@@ -189,8 +209,13 @@
               <div
                 class="block__content-item"
                 style="display: none"
-                id="control6">
-                <picture><source srcset="img/sound.webp" type="image/webp"><img class="block__content-img" src="img/sound.png" alt="" /></picture>
+                id="control6"
+              >
+                <img
+                  class="block__content-img"
+                  src="img/feature/sound.jpg"
+                  alt=""
+                />
                 <div class="block__content-box">
                   <h3>Звук</h3>
                   <p>
@@ -215,86 +240,282 @@
       <section class="games">
         <div class="container">
           <h2 class="blocks__title">Игры</h2>
-        <div class="games__wrapper">
-          <div class="games__descr">
-            <p class="feature__text">Игры И Развелечения</p>
-            <span>Открывайте новые приключения, решайте эпические задачи или переживайте классические моменты в своих любимых играх и приключениях.</span>
-            <button class="btn_left">
-              <span class="btn__price">Все Игры</span>
-            </button>
-          </div>
-          <div class="games-item">
-            <picture><source srcset="img/game1.webp" type="image/webp"><img class="game__img" src="img/game1.jpg" alt=""></picture>
-            <h3 class="game__title">Hogwarts Legacy</h3>
-            <p>Хогвартс.Наследие» – это захватывающая ролевая игра с открытым миром, который известен вам по книгам о Гарри Поттере.</p>
-            <a href="#">больше</a>
-          </div>
-          <div class="games-item">
-            <picture><source srcset="img/game2.webp" type="image/webp"><img class="game__img" src="img/game2.webp" alt=""></picture>
-            <h3 class="game__title">God of War Ragnarok</h3>
-            <p>God of War Ragnarok является девятой игрой в серии God of War и прямым сюжетным продолжением игры God of War, вышедшей в 2018 году</p>
-            <a href="#">больше</a>
-          </div>
-          <div class="games-item">
-            <picture><source srcset="img/game3.webp" type="image/webp"><img class="game__img" src="img/game3.webp" alt=""></picture>
-            <h3 class="game__title">Wild Hearts</h3>
-            <p>Освойте древние технологии, позволяющие охотиться на гигантских чудищ в фэнтезийном мире.</p>
-            <a href="#">больше</a>
+          <div class="games__wrapper">
+            <div class="games__descr">
+              <p class="feature__text">Игры И Развелечения</p>
+              <span
+                >Открывайте новые приключения, решайте эпические задачи или
+                переживайте классические моменты в своих любимых играх и
+                приключениях.</span
+              >
+              <button class="btn_left">
+                <span class="btn__price">Все Игры</span>
+              </button>
+            </div>
+            <div class="games-item">
+              <picture><source srcset="img/games/game1.webp" type="image/webp"><img class="game__img" src="img/games/game1.jpg" alt="" /></picture>
+              <h3 class="game__title">Hogwarts Legacy</h3>
+              <p>
+                Хогвартс.Наследие» – это захватывающая ролевая игра с открытым
+                миром, который известен вам по книгам о Гарри Поттере.
+              </p>
+              <a
+                href="https://www.moyo.ua/ua/game_zone/game/playstation_5/?utm_source=google&utm_medium=cpc&utm_campaign=Black_Friday_2022_Dynamic_Search&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9dD0eg9iqwGFZGy84oxoRkCABWr50h_-VWLEoHaeNdI1My_aNqqk4aAoOOEALw_wcB"
+                target="_blank"
+                >больше</a
+              >
+            </div>
+            <div class="games-item">
+              <picture><source srcset="img/games/game2.webp" type="image/webp"><img class="game__img" src="img/games/game2.webp" alt="" /></picture>
+              <h3 class="game__title">God of War Ragnarok</h3>
+              <p>
+                God of War Ragnarok является девятой игрой в серии God of War и
+                прямым сюжетным продолжением игры God of War, вышедшей в 2018
+                году
+              </p>
+              <a
+                href="https://www.moyo.ua/ua/game_zone/game/playstation_5/?utm_source=google&utm_medium=cpc&utm_campaign=Black_Friday_2022_Dynamic_Search&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9dD0eg9iqwGFZGy84oxoRkCABWr50h_-VWLEoHaeNdI1My_aNqqk4aAoOOEALw_wcB"
+                target="_blank"
+                >больше</a
+              >
+            </div>
+            <div class="games-item">
+              <picture><source srcset="img/games/game3.webp" type="image/webp"><img class="game__img" src="img/games/game3.webp" alt="" /></picture>
+              <h3 class="game__title">Wild Hearts</h3>
+              <p>
+                Освойте древние технологии, позволяющие охотиться на гигантских
+                чудищ в фэнтезийном мире.
+              </p>
+              <a
+                href="https://www.moyo.ua/ua/game_zone/game/playstation_5/?utm_source=google&utm_medium=cpc&utm_campaign=Black_Friday_2022_Dynamic_Search&gclid=Cj0KCQiA6LyfBhC3ARIsAG4gkF9dD0eg9iqwGFZGy84oxoRkCABWr50h_-VWLEoHaeNdI1My_aNqqk4aAoOOEALw_wcB"
+                target="_blank"
+                >больше</a
+              >
+            </div>
           </div>
         </div>
-      </div>
       </section>
 
-<section class="brand">
-  <h2 class="brand__name">SonyPS5</h2>
-  <div class="brand__logo">
-    <picture><source srcset="img/logo2.webp" type="image/webp"><img src="img/logo2.png" alt=""></picture>
-  </div>
-  <div class="btn">
-    <button class="btn_right">
-      <span class="btn__text">Купить Сейчас</span>
-    </button>
-    <button class="btn_left">
-      <span class="btn__price">999,99 usd</span>
-    </button>
-  </div>
-  <p class="text-p">PS5 предназначен для лиц старше 13 лет</p>
-</section>
+      <section class="brand">
+        <h2 class="brand__name">SonyPS5</h2>
+        <div class="brand__logo">
+          <picture><source srcset="img/logo2.webp" type="image/webp"><img src="img/logo2.png" alt="" /></picture>
+        </div>
+        <div class="btn">
+          <button class="btn_right">
+            <span class="btn__text">Купить Сейчас</span>
+          </button>
+          <button class="btn_left">
+            <span class="btn__price">999,99 usd</span>
+          </button>
+        </div>
+        <p class="text-p">PS5 предназначен для лиц старше 13 лет</p>
+      </section>
 
-<section class="inbox">
+      <section class="inbox">
+        <div class="container">
+          <h2 class="blocks__title">Комплектация</h2>
+          <div class="inbox__wrapper">
+            <div class="inbox-item">
+              <div class="inbox-elems img1">
+                <div class="inbox-elems-wrap">
+                  <div class="inbox-imgs">
+                    <div class="font img1"></div>
+                    <div class="back img2"></div>
+                  </div>
+                </div>
+              </div>
+              <p>Консоль</p>
+            </div>
+            <div class="inbox-item">
+              <div class="inbox-item_top">
+                <div class="inbox-elems-s img3">
+                  <div class="inbox-elems-wrap-s">
+                    <div class="inbox-imgs-s">
+                      <div class="font-s img3"></div>
+                      <div class="back-s img4"></div>
+                    </div>
+                  </div>
+                </div>
+                <p>Геймпад</p>
+              </div>
+              <div class="inbox-item_botton">
+                <div class="inbox-elems-s img5">
+                  <div class="inbox-elems-wrap-s">
+                    <div class="inbox-imgs-s">
+                      <div class="font-s img5"></div>
+                      <div class="back-s img6"></div>
+                    </div>
+                  </div>
+                </div>
+                <p>Сутевой шнур</p>
+              </div>
+            </div>
+            <div class="inbox-item">
+              <div class="inbox-item_top">
+                <p class="feature__text">Что В Коробке</p>
+              </div>
+              <div class="inbox-item_botton">
+                <div class="inbox-elems-s img7">
+                  <div class="inbox-elems-wrap-s">
+                    <div class="inbox-imgs-s">
+                      <div class="font-s img7"></div>
+                      <div class="back-s img8"></div>
+                    </div>
+                  </div>
+                </div>
+                <p>Пульт</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ready">
+        <div class="container">
+          <div class="ready__block">
+            <p class="load">Loading...</p>
+            <div class="btn__go">
+              <a href="#" class="go">Go</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="accessory">
+        <div class="container">
+          <h2 class="blocks__title">Аксесуары</h2>
+          <p class="feature__text">Персонализируйте Свое Устройство</p>
+          <div class="accessories__block">
+            <div class="accessories__block-item">
+              <picture><source srcset="img/accessory/case.webp" type="image/webp"><img src="img/accessory/case.jpg" alt="" /></picture>
+              <h3>
+                Сумка <br />
+                Digital Edition
+              </h3>
+              <p>Защитите свое устройство — дома или в дороге.</p>
+              <div class="accessories_buy">
+                <p class="accessory__price">$69.99 USD</p>
+                <button class="btn_left">
+                  <span class="btn__price">Купить сейчас</span>
+                </button>
+              </div>
+            </div>
+            <div class="accessories__block-item">
+              <picture><source srcset="img/accessory/charging.webp" type="image/webp"><img src="img/accessory/charging.png" alt="" /></picture>
+              <h3>
+                Зарядная Станция <br />
+                Dual Sense
+              </h3>
+              <p>
+                Оставайтесь в игре и всегда держите наготове еще один
+                контроллер.
+              </p>
+              <div class="accessories_buy">
+                <p class="accessory__price">$106.99 USD</p>
+                <button class="btn_left">
+                  <span class="btn__price">Купить сейчас</span>
+                </button>
+              </div>
+            </div>
+            <div class="accessories__block-item">
+              <picture><source srcset="img/accessory/headphones.webp" type="image/webp"><img src="img/accessory/headphones.png" alt="" /></picture>
+              <h3>
+                Наушники <br />
+                Pulse 3D
+              </h3>
+              <p>
+                Подготовьтесь к звуку нового поколения с беспроводной
+                гарнитурой.
+              </p>
+              <div class="accessories_buy">
+                <p class="accessory__price">$99.99 USD</p>
+                <button class="btn_left">
+                  <span class="btn__price">Купить сейчас</span>
+                </button>
+              </div>
+            </div>
+            <div class="accessories__block-item">
+              <picture><source srcset="img/accessory/drive.webp" type="image/webp"><img src="img/accessory/drive.jpg" alt="" /></picture>
+              <h3>
+                Руль <br />
+                ThrustMater T-GT II
+              </h3>
+              <p>Руль THRUSTMASTER T-GT II подарит вам ощущение гонок.</p>
+              <div class="accessories_buy">
+                <p class="accessory__price">$899.99 USD</p>
+                <button class="btn_left">
+                  <span class="btn__price">Купить сейчас</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <div class="container">
+          <p class="news__text">Получайте новости и обновления</p>
+          <div class="news__block">
+            <div class="news_left">
+              <div class="news__form">
+                <form action="">
+                  <input
+                    type="email"
+                    name="E-mail"
+                    placeholder="E-mail"
+                    required
+                  />
+                </form>
+                <div class="btn__curcle">
+                  <button class="news__btn">go</button>
+                </div>
+              </div>
+              <p class="registr__text">
+                Регистрируясь, вы соглашаетесь получать обновления и
+                маркетинговые сообщения (например, по электронной почте, в
+                социальных сетях и т. д.) от Sony PS5 о существующих и будущих
+                продуктах и ​​услугах PS5. Вы можете отозвать свое согласие и
+                отказаться от подписки в любое время, щелкнув ссылку отказа от
+                подписки, содержащуюся в наших сообщениях. Ваша подписка
+                регулируется Условиями и Политикой конфиденциальности.
+              </p>
+            </div>
+            <div class="news_right">
+              <p>oculusshop@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer header">
   <div class="container">
-    <h2 class="blocks__title">Комплектация</h2>
-    <div class="inbox__wrapper">
-      <div class="inbox-item">
-        <picture><source srcset="img/PS5.webp" type="image/webp"><img src="img/PS5.png" alt="console ps5" class="indox-item__img front"></picture>
-        <p>Консоль</p>
-      </div>
-      <div class="inbox-item">
-        <div class="inbox-item_top">
-          <picture><source srcset="img/jost.webp" type="image/webp"><img src="img/jost.png" alt="controller ps5" class="indox-item__img"></picture>
-          <p>Геймпад</p>
-        </div>
-        <div class="inbox-item_botton">
-          <picture><source srcset="img/cable.webp" type="image/webp"><img src="img/cable.jpg" alt="cable ps5" class="indox-item__img"></picture>
-          <p>Сутевой шнур</p>
-        </div>
-      </div>
-      <div class="inbox-item">
-        <div class="inbox-item_top">
-          <p class="feature__text">Что В Коробке</p>
-        </div>
-        <div class="inbox-item_botton">
-          <picture><source srcset="img/pult.webp" type="image/webp"><img src="img/pult.jpg" alt="cable ps5" class="indox-item__img"></picture>
-          <p>Пульт</p>
-        </div>
+    <div class="nav">
+      <ul class="menu">
+        <li class="menu__list"><a href="#" class="menu__link">Магазин</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Игры</a></li>
+        <li class="menu__list">
+          <a href="#" class="menu__link">Метавселенная</a>
+        </li>
+        <li class="menu__list"><a href="#" class="menu__link">Контакты</a></li>
+      </ul>
+      <a href="#" class="logo">
+        <img src="img/logo.svg" alt="" />
+      </a>
+      <div class="footer__icons">
+        <a href="#"
+          ><img src="img/youtube.svg" alt="" class="footer__icon"
+        /></a>
+        <a href="#"
+          ><img src="img/facebook.svg" alt="" class="footer__icon"
+        /></a>
+        <a href="#"><img src="img/smile.svg" alt="" class="footer__icon" /></a>
       </div>
     </div>
   </div>
-</section>
+</footer>
 
-    </main>
-
-    
-    <script src="js/app.min.js?_v=20230217143103"></script>
+    <script src="js/app.min.js?_v=20230217220403"></script>
   </body>
 </html>

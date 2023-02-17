@@ -1,20 +1,4 @@
 @font-face {
-  font-family: DynaGroteskLM;
-  font-display: swap;
-  src: url("../fonts/DynaGroteskLM-Bold.woff2") format("woff2"), url("../fonts/DynaGroteskLM-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: PlayfairDisplay;
-  font-display: swap;
-  src: url("../fonts/PlayfairDisplay-Italic-VariableFont_wght.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Italic-VariableFont_wght.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: Helvetica;
   font-display: swap;
   src: url("../fonts/Helvetica-Bold.woff2") format("woff2"), url("../fonts/Helvetica-Bold.woff") format("woff");
@@ -26,14 +10,6 @@
   font-family: Helvetica;
   font-display: swap;
   src: url("../fonts/Helvetica.woff2") format("woff2"), url("../fonts/Helvetica.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: PlayfairDisplay;
-  font-display: swap;
-  src: url("../fonts/PlayfairDisplay-VariableFont_wght.woff2") format("woff2"), url("../fonts/PlayfairDisplay-VariableFont_wght.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
