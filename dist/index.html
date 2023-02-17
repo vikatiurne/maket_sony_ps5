@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/style.min.css?_v=20230217143103" />
+</head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <ul class="menu">
+        <li class="menu__list"><a href="#" class="menu__link">Магазин</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Игры</a></li>
+        <li class="menu__list"><a href="#" class="menu__link">Метавселенная</a></li>
+      </ul>
+      <a href="#" class="logo">
+        <img src="img/logo.svg" alt="" />
+      </a>
+      <a href="#" class="basket">
+        <img src="img/basket.svg" alt="" />
+        <!-- basket_on -->
+        <span class="basket_qty">10</span> 
+      </a>
+    </nav>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="section_top">
+        <div class="container">
+          <h1 class="title">Sony PlayStation 5</h1>
+          <h2 class="subtitle">Получи Второй Геймпад В Подарок</h2>
+          <p class="text-p">
+            Только в течение ограниченного времени сэкономьте 59,99USD.
+            Предложение заканчивается 30.02.23
+          </p>
+          <div class="btn">
+            <button class="btn_right">
+              <span class="btn__text">Купить Сейчас</span>
+            </button>
+            <button class="btn_left">
+              <span class="btn__price">999,99 usd</span>
+            </button>
+          </div>
+          <p class="text-p">Индивидульная Скидка В День Рождения</p>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="container">
+          <div class="feature__titles">
+            <h2 class="feature__title blocks__title">
+              Характеристики Продукта
+            </h2>
+            <p class="feature__text">
+              Простота настройки и безопасность использования
+            </p>
+          </div>
+          <div class="blocks">
+            <div class="block_btns">
+              <button
+                class="block_btn-item block_btn-item--active"
+                data-button="control1">
+                01 Графика
+              </button>
+              <button class="block_btn-item" data-button="control2">
+                02 Элементы управления
+              </button>
+              <button class="block_btn-item" data-button="control3">
+                03 Процессор
+              </button>
+              <button class="block_btn-item" data-button="control4">
+                04 Аккаунт
+              </button>
+              <button class="block_btn-item" data-button="control5">
+                05 Техподдержка
+              </button>
+              <button class="block_btn-item" data-button="control6">
+                06 Звук
+              </button>
+            </div>
+            <div class="block__content">
+              <div
+                class="block__content-item block__content-item--active"
+                id="control1">
+                <picture><source srcset="img/grafics.webp" type="image/webp"><img class="block__content-img" src="img/grafics.jpg" alt="" /></picture>
+                <div class="block__content-box">
+                  <h3>Графика</h3>
+                  <p>
+                    Графическое ядро у Sony от AMD, построено на архитектуре
+                    RDNA 2.
+                  </p>
+                </div>
+                <div class="video">
+                  <button class="video__btn">
+                    <img src="img/play.svg" alt="" />
+                  </button>
+                  <span>Смотреть видео</span>
+                </div>
+              </div>
+              <div
+                class="block__content-item"
+                style="display: none"
+                id="control2">
+                <img
+                  class="block__content-img"
+                  src="img/controls.png"
+                  alt="" />
+                <div class="block__content-box">
+                  <h3>Элементы управления</h3>
+                  <p>
+                    Фирменный контроллер Sony, по сути, стал главной инновацией
+                    уже текущего поколения консолей. Всё дело в навороченной
+                    тактильной отдаче, которая дарит по-настоящему новый опыт от
+                    видеоигр
+                  </p>
+                </div>
+                <div class="video">
+                  <button class="video__btn">
+                    <img src="img/play.svg" alt="" />
+                  </button>
+                  <span>Смотреть видео</span>
+                </div>
+              </div>
+              <div
+                class="block__content-item"
+                style="display: none"
+                id="control3">
+                <img
+                  class="block__content-img"
+                  src="img/prosessor.jpg"
+                  alt="" />
+                <div class="block__content-box">
+                  <h3>Процессор</h3>
+                  <p>
+                    В основе лежит APU — единый блок, в котором совмещены
+                    центральный процессор и видеокарта. CPU PS5 - это два чипа
+                    Zen 2 по четыре ядра в каждом, что в сумме даёт восемь ядер
+                    с поддержкой 16 потоков
+                  </p>
+                </div>
+                <div class="video">
+                  <button class="video__btn">
+                    <img src="img/play.svg" alt="" />
+                  </button>
+                  <span>Смотреть видео</span>
+                </div>
+              </div>
+              <div
+                class="block__content-item"
+                style="display: none"
+                id="control4">
+                <picture><source srcset="img/accaunt.webp" type="image/webp"><img class="block__content-img" src="img/accaunt.jpg" alt="" /></picture>
+                <div class="block__content-box">
+                  <h3>Аккаунт</h3>
+                  <p>
+                    Семейный доступ позволяет управлять игровым временем,
+                    управлять покупками с использованием средств из бумажника
+                    организатора семейного доступа, управлять доступом к играм,
+                    видео и приложениям
+                  </p>
+                </div>
+                <div class="video">
+                  <button class="video__btn">
+                    <img src="img/play.svg" alt="" />
+                  </button>
+                  <span>Смотреть видео</span>
+                </div>
+              </div>
+              <div
+                class="block__content-item"
+                style="display: none"
+                id="control5">
+                <picture><source srcset="img/store.webp" type="image/webp"><img class="block__content-img" src="img/store.jpg" alt="" /></picture>
+                <div class="block__content-box">
+                  <h3>Техподдержка</h3>
+                  <p>В PlayStation Network</p>
+                </div>
+                <div class="video">
+                  <button class="video__btn">
+                    <img src="img/play.svg" alt="" />
+                  </button>
+                  <span>Смотреть видео</span>
+                </div>
+              </div>
+              <div
+                class="block__content-item"
+                style="display: none"
+                id="control6">
+                <picture><source srcset="img/sound.webp" type="image/webp"><img class="block__content-img" src="img/sound.png" alt="" /></picture>
+                <div class="block__content-box">
+                  <h3>Звук</h3>
+                  <p>
+                    3D Tempest Audio в PS5 — это вариант Dolby Atmos от Sony
+                    или, иными словами, пространственного аудио. Оно работает на
+                    любой гарнитуре, а поддержка 3D-звука для телевизионных
+                    колонок стала доступна благодаря недавнему обновлению
+                  </p>
+                </div>
+                <div class="video">
+                  <button class="video__btn">
+                    <img src="img/play.svg" alt="" />
+                  </button>
+                  <span>Смотреть видео</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="games">
+        <div class="container">
+          <h2 class="blocks__title">Игры</h2>
+        <div class="games__wrapper">
+          <div class="games__descr">
+            <p class="feature__text">Игры И Развелечения</p>
+            <span>Открывайте новые приключения, решайте эпические задачи или переживайте классические моменты в своих любимых играх и приключениях.</span>
+            <button class="btn_left">
+              <span class="btn__price">Все Игры</span>
+            </button>
+          </div>
+          <div class="games-item">
+            <picture><source srcset="img/game1.webp" type="image/webp"><img class="game__img" src="img/game1.jpg" alt=""></picture>
+            <h3 class="game__title">Hogwarts Legacy</h3>
+            <p>Хогвартс.Наследие» – это захватывающая ролевая игра с открытым миром, который известен вам по книгам о Гарри Поттере.</p>
+            <a href="#">больше</a>
+          </div>
+          <div class="games-item">
+            <picture><source srcset="img/game2.webp" type="image/webp"><img class="game__img" src="img/game2.webp" alt=""></picture>
+            <h3 class="game__title">God of War Ragnarok</h3>
+            <p>God of War Ragnarok является девятой игрой в серии God of War и прямым сюжетным продолжением игры God of War, вышедшей в 2018 году</p>
+            <a href="#">больше</a>
+          </div>
+          <div class="games-item">
+            <picture><source srcset="img/game3.webp" type="image/webp"><img class="game__img" src="img/game3.webp" alt=""></picture>
+            <h3 class="game__title">Wild Hearts</h3>
+            <p>Освойте древние технологии, позволяющие охотиться на гигантских чудищ в фэнтезийном мире.</p>
+            <a href="#">больше</a>
+          </div>
+        </div>
+      </div>
+      </section>
+
+<section class="brand">
+  <h2 class="brand__name">SonyPS5</h2>
+  <div class="brand__logo">
+    <picture><source srcset="img/logo2.webp" type="image/webp"><img src="img/logo2.png" alt=""></picture>
+  </div>
+  <div class="btn">
+    <button class="btn_right">
+      <span class="btn__text">Купить Сейчас</span>
+    </button>
+    <button class="btn_left">
+      <span class="btn__price">999,99 usd</span>
+    </button>
+  </div>
+  <p class="text-p">PS5 предназначен для лиц старше 13 лет</p>
+</section>
+
+<section class="inbox">
+  <div class="container">
+    <h2 class="blocks__title">Комплектация</h2>
+    <div class="inbox__wrapper">
+      <div class="inbox-item">
+        <picture><source srcset="img/PS5.webp" type="image/webp"><img src="img/PS5.png" alt="console ps5" class="indox-item__img front"></picture>
+        <p>Консоль</p>
+      </div>
+      <div class="inbox-item">
+        <div class="inbox-item_top">
+          <picture><source srcset="img/jost.webp" type="image/webp"><img src="img/jost.png" alt="controller ps5" class="indox-item__img"></picture>
+          <p>Геймпад</p>
+        </div>
+        <div class="inbox-item_botton">
+          <picture><source srcset="img/cable.webp" type="image/webp"><img src="img/cable.jpg" alt="cable ps5" class="indox-item__img"></picture>
+          <p>Сутевой шнур</p>
+        </div>
+      </div>
+      <div class="inbox-item">
+        <div class="inbox-item_top">
+          <p class="feature__text">Что В Коробке</p>
+        </div>
+        <div class="inbox-item_botton">
+          <picture><source srcset="img/pult.webp" type="image/webp"><img src="img/pult.jpg" alt="cable ps5" class="indox-item__img"></picture>
+          <p>Пульт</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    
+    <script src="js/app.min.js?_v=20230217143103"></script>
+  </body>
+</html>
