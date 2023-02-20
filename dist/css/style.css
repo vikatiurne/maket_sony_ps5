@@ -1059,7 +1059,8 @@ body {
 
   .games .games__wrapper .games__descr {
     grid-column: initial;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .games .games__wrapper .games__descr .feature__text {
