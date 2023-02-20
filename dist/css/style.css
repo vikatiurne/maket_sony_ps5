@@ -938,7 +938,7 @@ body {
     grid-row: 2/3;
   }
 
-  .btn_left .btn__price {
+  .accessory .btn_left .btn__price {
     padding-left: 20px;
     padding-right: 20px;
   }
